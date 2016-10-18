@@ -118,7 +118,7 @@ while True:
     # one = int(input("Enter 일의자리 : "))
     # guess = [hund,ten,one]
     guess = int(input("맞춰보세요! :"))
-    if guess > 999 or guess < 0:
+    if guess > 999 or guess < 100:
         continue
     c = (guess//100)
     d = ((guess//10)%10)
