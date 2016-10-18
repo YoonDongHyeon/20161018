@@ -105,6 +105,7 @@ while True:
         break
 answer = [a,b,c]
 print(answer)
+
 while True:
     strike = 0
     ball = 0
